@@ -22,5 +22,7 @@ public class Calculator()
 	case(5): System.out.print(mod(a,b));
 	}
 	}
-
+	public static double add(double a, double b){
+	return a + b;
+	}
 }
