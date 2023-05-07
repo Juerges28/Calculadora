@@ -8,6 +8,7 @@ public class Calculadora{
 		a=sc.nextDouble();
 		System.out.print("Ingrese el  segundo numero: ");
         	b=sc.nextDouble();
+		System.out.println("Suma: 1\nResta: 2\nMultiplicacion: 3\nDivision: 4\nModulo: 5");
 		System.out.print("Seleccione la operacion: ");
         	eleccion=sc.nextInt();
 		switch(eleccion){
