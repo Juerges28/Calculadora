@@ -22,12 +22,10 @@ public class Calculator()
 	case(5): System.out.print(mod(a,b));
 	}
 	}
-<<<<<<< HEAD
 	public static double add(double a, double b){
-	return a + b;
-=======
+		return a + b;
+	}
 	public static double sub(double a, double b){
-		retrun a - b;
->>>>>>> origin/sub
+		return a - b;
 	}
 }
