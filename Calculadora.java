@@ -33,5 +33,8 @@ public class Calculator()
 	}
 	public static double mul(double a, double b){
 		return a*b;
+	}	
+	public static double mod(double a, double b){
+		return a%b;
 	}
 }
