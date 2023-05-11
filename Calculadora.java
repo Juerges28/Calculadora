@@ -11,6 +11,7 @@ public class Calculadora{
 		System.out.println("Suma: 1\nResta: 2\nMultiplicacion: 3\nDivision: 4\nModulo: 5");
 		System.out.print("Seleccione la operacion: ");
         	eleccion=sc.nextInt();
+		System.out.println("El resultado de la operacion es:");
 		switch(eleccion){
 		case(1): System.out.print(add(a,b));
 			 break;
