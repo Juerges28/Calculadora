@@ -4,14 +4,14 @@ public class Calculadora{
 		Scanner sc = new Scanner(System.in);
 		double a,b;
 		int eleccion;
-		System.out.print("Ingrese el primer numero: ");
+		System.out.print("\nIngrese el primer numero: ");
 		a=sc.nextDouble();
-		System.out.print("Ingrese el  segundo numero: ");
+		System.out.print("Ingrese el segundo numero: ");
         	b=sc.nextDouble();
-		System.out.println("Suma: 1\nResta: 2\nMultiplicacion: 3\nDivision: 4\nModulo: 5");
+		System.out.println("\n===Operaciones===\n1 -> Suma\n2 -> Resta\n3 -> Multiplicacion\n4 -> Division\n5 -> Modulo\n=================");
 		System.out.print("Seleccione la operacion: ");
         	eleccion=sc.nextInt();
-		System.out.println("El resultado de la operacion es:");
+		System.out.print("=================\nEl resultado de la operacion es: ");
 		switch(eleccion){
 		case(1): System.out.print(add(a,b));
 			 break;
